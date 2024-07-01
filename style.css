@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'digital'; /* Font'un adı */
+    src: url('./assets/fonts/DS-Digital.ttf.woff') format('woff'); /* Font dosyasının yolu ve formatı */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    width: 40%;
+    height: 150px;
+    text-align: center;
+    padding: 30px 10px 0 0;
+    margin-top: 20rem;
+    font-size: 5rem;
+    font-family: "digital";
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30%;
+    box-shadow: 20px 2px  100px blueviolet;
+    
+    
+    
+}
+
+.container span{
+text-shadow: -5px -5px 50px rgb(255, 255, 255);
+    
+}
